@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/reponsive.css">
+    <link rel="shortcut icon" href="./assets//icons8-facebook.svg" type="image/x-icon">
+</head>
+<body>
+    <div id="main">
+        <header id="header" class="flex space-between box-shadow-normal fixed top-0 left-0 right-0 z-10 px-16 h-56 bg-white">
+            <div class="logoAndSeach flex-1 flex align-center gap-4">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px" fill="url(#Ld6sqrtcxMyckEl6xeDdMa)"><linearGradient id="Ld6sqrtcxMyckEl6xeDdMa" x1="9.993" x2="40.615" y1="9.993" y2="40.615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2aa4f4"/><stop offset="1" stop-color="#007ad9"/></linearGradient><path fill="url(#Ld6sqrtcxMyckEl6xeDdMa)" d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"/><path fill="#fff" d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"/></svg>
+                </div>
+                
+                <button type="button" class="bg-gray rounded-full cursor-pointer p-9 search-tablet">
+                  <img src="/assets/icons8-search.svg" alt="search">
+                </button>
+                
+                <div class="header-search bg-gray flex rounded-50 ml-12">
+                  <button type="button" class="pl-12">
+                    <img src="/assets/icons8-search.svg" alt="search">
+                  </button>
+                  <input type="text" placeholder="Search Facebook" class="flex-1 search-input">
+                </div>
+            </div>
+
+            <nav class="navigation flex space-between align-center flex-1-5 gap-8 py-4 gap-2rem">
+              <div class="icon-navigation flex-1 text-center py-8 icon-navigation-active">
+               <img src="/assets/icons8-home-28.png" alt="home">
+              </div>
+
+              <div class="icon-navigation flex-1 text-center py-8">
+                <img src="./assets/icons8-tv-show-28.png" alt="watching">
+              </div>
+
+              <div class="icon-navigation flex-1 text-center py-8">
+                <img src="./assets/icons8-online-store-28.png" alt="home">
+              </div>
+
+              <div class="icon-navigation flex-1 text-center py-8">
+                <img src="./assets/icons8-user-groups-28.png" alt="groups">
+              </div>
+
+              <div class="icon-navigation flex-1 text-center py-8 icon-gaming">
+                <img src="./assets/icons8-ps-controller-28.png" alt="gaming">
+              </div>
+
+              <div class="icon-navigation flex-1 text-center py-8 icon-menu">
+                <img src="./assets/icons8-menu-28 (1).png" alt="menu">
+              </div>
+            </nav>
+
+            <div class="accountAndSetting flex-1 flex justify-end align-center gap-8">
+              <div class="icon-account flex align-center justify-center rounded-full cursor-pointer icon-list">
+                <img src="./assets/icons8-circled-menu-20.png" alt="menu">
+              </div>
+              
+              <div class="icon-account flex align-center justify-center rounded-full cursor-pointer icon-add">
+                <img src="./assets/icons8-add-20 (1).png" alt="add">
+              </div>
+              
+              <div class="icon-account flex align-center justify-center rounded-full cursor-pointer">
+                <img src="./assets/icons8-facebook-messenger-20.png" alt="messenger">
+              </div>
+
+              <div class="icon-account flex align-center justify-center rounded-full cursor-pointer">
+                <img src="./assets/icons8-notification-20.png" alt="notification">
+              </div>
+
+              <div class="rounded-full icon-account over-hidden cursor-pointer">
+                <img src="./assets/avatar.jpg" alt="user" width="40" height="40">
+              </div>  
+            </div>
+        </header>
+
+        <aside id="aside-1" class="h-content pl-16">
+          <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+            <div class="w-28 h-28 rounded-full over-hidden">
+              <img src="./assets/avatar.jpg" alt="avatar" class="object-fit" width="100%" height="100%">
+            </div>
+            <h3 class="text-color flex-1">Nguyễn Đình Cường</h3>
+          </div>
+
+          <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+            <div class="w-28 h-28 rounded-full over-hidden">
+              <img src="./assets/aside-user-group.svg" alt="avatar" class="object-fit" width="100%" height="100%">
+            </div>
+            <h3 class="text-color flex-1">Friends</h3>
+          </div>
+
+          <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+            <div class="w-28 h-28 rounded-full over-hidden">
+              <img src="./assets/aside-video.svg" alt="avatar" class="object-fit" width="100%" height="100%">
+            </div>
+            <h3 class="text-color flex-1">Video</h3>
+          </div>
+
+          <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+            <div class="w-28 h-28 rounded-full over-hidden">
+              <img src="./assets/aside-clock.svg" alt="avatar" class="object-fit" width="100%" height="100%">
+            </div>
+            <h3 class="text-color flex-1">Memories</h3>
+          </div>
+
+          <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+            <div class="w-28 h-28 rounded-full over-hidden">
+              <img src="./assets/aside-save.svg" alt="avatar" class="object-fit" width="100%" height="100%">
+            </div>
+            <h3 class="text-color flex-1">Saved</h3>
+          </div>
+
+          <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+            <div class="w-28 h-28 rounded-full over-hidden">
+              <img src="./assets/aside-group.png" alt="avatar" class="object-fit" width="100%" height="100%">
+            </div>
+            <h3 class="text-color flex-1">Group</h3>
+          </div>
+
+          <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+            <div class="w-28 h-28 rounded-full over-hidden">
+              <img src="./assets/aside-market.svg" alt="avatar" class="object-fit" width="100%" height="100%">
+            </div>
+            <h3 class="text-color flex-1">Marketplace</h3>
+          </div>
+
+          <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+            <div class="w-28 h-28 rounded-full over-hidden">
+              <img src="./assets/aside-news.png" alt="avatar" class="object-fit" width="100%" height="100%">
+            </div>
+            <h3 class="text-color flex-1">News</h3>
+          </div>
+
+          <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+            <div class="rounded-full over-hidden aside-arrow-down flex align-center">
+              <img src="./assets/aside-down.png" alt="avatar" class="object-fit" width="100%" height="100%">
+            </div>
+            <h3 class="text-color flex-1">See More</h3>
+          </div>
+
+          <div class="divide bg-divider my-8"></div>
+
+          <div>
+            <h2 class="text-gray-40 fz-17">Your Shortcut</h2>
+
+            <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8 py-27">
+              <div class="w-28 h-28 rounded-4 over-hidden">
+                <img src="./assets/cong-dong-js.png" alt="avatar" class="object-fit" width="100%" height="100%">
+              </div>
+              <h3 class="text-color flex-1">Cộng đồng Lập Trình Web • Front-end & Back-end Việt Nam</h3>
+            </div>
+
+            <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8 py-27">
+              <div class="w-28 h-28 rounded-4 over-hidden">
+                <img src="./assets/jsland.jpg" alt="avatar" class="object-fit" width="100%" height="100%">
+              </div>
+              <h3 class="text-color flex-1">JsLand (Cộng đồng Javascript lớn nhất Việt Nam)</h3>
+            </div>
+
+            <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+              <div class="w-28 h-28 rounded-full over-hidden">
+                <img src="./assets/no-avatar.png" alt="avatar" class="object-fit" width="100%" height="100%">
+              </div>
+              <h3 class="text-color flex-1">D.C</h3>
+            </div>
+          </div>
+
+          <div class="p-16">
+            <a href="" class="fz-13">
+              Privacy
+              <span> · </span>
+            </a>
+            <a href="" class="fz-13">
+              Terms
+              <span> · </span>
+            </a>
+            <a href="" class="fz-13">
+              Advertising
+              <span> · </span>
+            </a>
+            <a href="" class="fz-13">
+              Ad choices
+              <span> · </span>
+            </a>
+            <a href="" class="fz-13">
+              Cookies
+              <span> · </span>
+            </a>
+            <a href="" class="fz-13">
+              More
+              <span> · </span>
+            </a>
+            
+            <span class="fz-13 text-gray-40">
+              Meta © 2023
+            </span>
+          </div>
+        </aside>
+
+        <section id="content" class="h-content flex flex-column justify-center">
+          <div class="flex align-center gap-8 relative pb-14 justify-center">
+            <div class="h-250 w-140 relative rounded-4 over-hidden box-shadow-md cursor-pointer">
+              <img src="/assets/avatar.jpg" alt="avatar" width="140px" height="201px" class="object-fit">
+              <h3 class="text-center color-main m-0 mt-20">Create story</h3>
+              <button type="button" class="absolute cursor-pointer add-button-content">
+                <img src="/assets/icons8-plus-math-20 (1).png" alt="add">
+              </button>
+            </div>
+
+            <div class="h-250 w-140 relative rounded-4 over-hidden box-shadow-md cursor-pointer">
+              <img src="/assets/longhuynhjpg.jpg" alt="avatar" width="140px" height="201px" class="object-fit">
+              <h3 class="text-center color-main m-0 mt-20">Long Huỳnh</h3>
+              <div class="avatar-friend" style="background-image: url('./assets/longhuynh-avatar.jpg');"></div>
+            </div>
+
+            <div class="h-250 w-140 relative rounded-4 over-hidden box-shadow-md cursor-pointer">
+              <img src="/assets/daoduytung.jpg" alt="avatar" width="140px" height="201px" class="object-fit">
+              <h3 class="text-center color-main m-0 mt-20">Đào Duy Tùng</h3>
+              <div class="avatar-friend" style="background-image: url('./assets/daoduytung-avatar.jpg');"></div>
+            </div>
+
+            <div class="h-250 w-140 relative rounded-4 over-hidden box-shadow-md cursor-pointer">
+              <img src="/assets/hoangvan.jpg" alt="avatar" width="140px" height="201px" class="object-fit">
+              <h3 class="text-center color-main m-0 mt-20">Hoàng Văn</h3>
+              <div class="avatar-friend" style="background-image: url('./assets/hoangvan-avatar.jpg');">
+                <div class="isOnline"></div>
+              </div>
+            </div>
+
+            <button type="button" class="absolute bg-white rounded-full story_arrow-left cursor-pointer">
+              <img src="/assets/icons8-arrow-24.png" alt="icon-arrow">
+            </button>
+          </div>
+
+          <div>
+            <div class="w-500 bg-white m-auto h-122 rounded-4 box-shadow-md pt-12 px-16 pb-10">
+              <div class="flex align-center gap-8">
+                <div class="rounded-full icon-account over-hidden cursor-pointer">
+                  <img src="./assets/avatar.jpg" alt="user" width="40" height="40">
+                </div>
+                
+                <div class="flex-1 bg-gray text-gray-40 fz-17 py-8 px-12 rounded-12 cursor-pointer">
+                  What's on your mind, Cường ?
+                </div>
+              </div>
+              <div class="divide my-8 bg-divider-2"></div>
+              <div class="flex align-center space-between">
+                <div class="flex gap-8 align-center justify-center p-8 cursor-pointer icon-post">
+                  <img src="/assets/post-camera.png" alt="camera" width="24px" height="24px">
+                  <h4 class="m-0 text-gray-40 fz-15">Live video</h4>
+                </div>
+  
+                <div class="flex gap-8 align-center justify-center  p-8 cursor-pointer icon-post">
+                  <img src="/assets/post-image.png" alt="camera" width="24px" height="24px">
+                  <h4 class="m-0 text-gray-40 fz-15">Photo/video</h4>
+                </div>
+  
+                <div class="flex gap-8 align-center justify-center  p-8 cursor-pointer icon-post">
+                  <img src="/assets/post-smile.png" alt="camera" width="24px" height="24px">
+                  <h4 class="m-0 text-gray-40 fz-15">Feeling/activity</h4>
+                </div>
+              </div>
+            </div>
+  
+            <div class="w-500 m-auto mt-12 flex flex-column gap-16">
+              <div class="bg-white rounded-4 px-16">
+                <h3 class="m-0 fz-15 text-gray-40 fw-400 pt-16">Suggest for you</h3>
+                <div class="divide bg-divider-2 my-16"></div>
+  
+                <div>
+                  <div class="flex align-center gap-8">
+                    <div class="rounded-full icon-account over-hidden cursor-pointer">
+                      <img src="./assets/buon-ma-thuot.jpg" alt="user" width="40" height="40">
+                    </div>
+  
+                    <div class="flex-1">
+                      <h3 class="m-0">Buôn Ma Thuột</h3>
+                      <div class="flex align-center gap-8">
+                        2 d
+                        <img src="/assets/icons8-favicon-12.png" alt="public" width="12px" height="12px">
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <button type="button" class="cursor-pointer p-8 icon-all-post">
+                        <img src="/assets/icons8-ellipsis-20.png" alt="ellipsis" width="20px" height="20px">
+                      </button>
+  
+                      <button type="button" class="cursor-pointer p-8 icon-all-post">
+                        <img src="/assets/icons8-close-20 (1).png" alt="close" width="20px" height="20px">
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="pb-16 flex align-center gap-8 pt-12">
+                    <span class="fz-15 text-color">Thời tới.. lên kèo bạn thân ơi</span>
+                    <img src="/assets/buon-ma-thuot-icon-post.png" alt="icon-post" width="16px" height="16px">
+                  </div>
+  
+                  <div class="w-full">
+                    <img src="/assets/buon-ma-thuot-post.jpg" alt="bmt-post" class="object-fit w-full image-post">
+                  </div>
+  
+                  <div class="flex space-between">
+                    <div class="flex align-center gap-8 py-10">
+                      <button type="button" class="icon-like rounded-full">
+                        <img src="/assets/icons8-like-18.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">297</span>
+                    </div>
+  
+                    <div class="flex align-center">
+                      <div class="flex align-center py-10">
+                        <span class="text-gray-40 fz-15">105</span>
+                        <button type="button">
+                          <img src="/assets/icons8-comment-24.png" alt="like" width="18px" height="18px">
+                        </button>
+                      </div>
+  
+                      <div class="flex align-center py-10">
+                        <span class="text-gray-40 fz-15">8</span>
+                        <button type="button">
+                          <img src="/assets/icons8-forward-arrow-20.png" alt="like" width="18px" height="18px">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="divide bg-divider-2"></div>
+  
+                  <div class="flex space-between">
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-like-18 (1).png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Like</span>
+                    </div>
+  
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-comment-24.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Comment</span>
+                    </div>
+                    
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-forward-arrow-20.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Share</span>
+                    </div>
+  
+                    <div class="flex align-center cursor-pointer">
+                      <div class="rounded-full w-20 h-20 over-hidden cursor-pointer">
+                        <img src="./assets/avatar.jpg" alt="user" width="20px" height="20px">
+                      </div>
+                      <button type="button" class="p-0">
+                        <img src="/assets/icons8-arrow-12.png" alt="like" width="20px" height="20px">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="bg-white rounded-4 px-16">
+                <h3 class="m-0 fz-15 text-gray-40 fw-400 pt-16">Suggest for you</h3>
+                <div class="divide bg-divider-2 my-16"></div>
+  
+                <div>
+                  <div class="flex align-center gap-8">
+                    <div class="rounded-full icon-account over-hidden cursor-pointer">
+                      <img src="./assets/buon-ma-thuot.jpg" alt="user" width="40" height="40">
+                    </div>
+  
+                    <div class="flex-1">
+                      <h3 class="m-0">Buôn Ma Thuột</h3>
+                      <div class="flex align-center gap-8">
+                        2 d
+                        <img src="/assets/icons8-favicon-12.png" alt="public" width="12px" height="12px">
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <button type="button" class="cursor-pointer p-8 icon-all-post">
+                        <img src="/assets/icons8-ellipsis-20.png" alt="ellipsis" width="20px" height="20px">
+                      </button>
+  
+                      <button type="button" class="cursor-pointer p-8 icon-all-post">
+                        <img src="/assets/icons8-close-20 (1).png" alt="close" width="20px" height="20px">
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="pb-16 flex align-center gap-8 pt-12">
+                    <span class="fz-15 text-color">Thời tới.. lên kèo bạn thân ơi</span>
+                    <img src="/assets/buon-ma-thuot-icon-post.png" alt="icon-post" width="16px" height="16px">
+                  </div>
+  
+                  <div class="w-full">
+                    <img src="/assets/buon-ma-thuot-post.jpg" alt="bmt-post" class="object-fit w-full image-post">
+                  </div>
+  
+                  <div class="flex space-between">
+                    <div class="flex align-center gap-8 py-10">
+                      <button type="button" class="icon-like rounded-full">
+                        <img src="/assets/icons8-like-18.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">297</span>
+                    </div>
+  
+                    <div class="flex align-center">
+                      <div class="flex align-center py-10">
+                        <span class="text-gray-40 fz-15">105</span>
+                        <button type="button">
+                          <img src="/assets/icons8-comment-24.png" alt="like" width="18px" height="18px">
+                        </button>
+                      </div>
+  
+                      <div class="flex align-center py-10">
+                        <span class="text-gray-40 fz-15">8</span>
+                        <button type="button">
+                          <img src="/assets/icons8-forward-arrow-20.png" alt="like" width="18px" height="18px">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="divide bg-divider-2"></div>
+  
+                  <div class="flex space-between">
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-like-18 (1).png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Like</span>
+                    </div>
+  
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-comment-24.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Comment</span>
+                    </div>
+                    
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-forward-arrow-20.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Share</span>
+                    </div>
+  
+                    <div class="flex align-center cursor-pointer">
+                      <div class="rounded-full w-20 h-20 over-hidden cursor-pointer">
+                        <img src="./assets/avatar.jpg" alt="user" width="20px" height="20px">
+                      </div>
+                      <button type="button" class="p-0">
+                        <img src="/assets/icons8-arrow-12.png" alt="like" width="20px" height="20px">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="bg-white rounded-4 px-16">
+                <h3 class="m-0 fz-15 text-gray-40 fw-400 pt-16">Suggest for you</h3>
+                <div class="divide bg-divider-2 my-16"></div>
+  
+                <div>
+                  <div class="flex align-center gap-8">
+                    <div class="rounded-full icon-account over-hidden cursor-pointer">
+                      <img src="./assets/buon-ma-thuot.jpg" alt="user" width="40" height="40">
+                    </div>
+  
+                    <div class="flex-1">
+                      <h3 class="m-0">Buôn Ma Thuột</h3>
+                      <div class="flex align-center gap-8">
+                        2 d
+                        <img src="/assets/icons8-favicon-12.png" alt="public" width="12px" height="12px">
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <button type="button" class="cursor-pointer p-8 icon-all-post">
+                        <img src="/assets/icons8-ellipsis-20.png" alt="ellipsis" width="20px" height="20px">
+                      </button>
+  
+                      <button type="button" class="cursor-pointer p-8 icon-all-post">
+                        <img src="/assets/icons8-close-20 (1).png" alt="close" width="20px" height="20px">
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="pb-16 flex align-center gap-8 pt-12">
+                    <span class="fz-15 text-color">Thời tới.. lên kèo bạn thân ơi</span>
+                    <img src="/assets/buon-ma-thuot-icon-post.png" alt="icon-post" width="16px" height="16px">
+                  </div>
+  
+                  <div class="w-full">
+                    <img src="/assets/buon-ma-thuot-post.jpg" alt="bmt-post" class="object-fit w-full image-post">
+                  </div>
+  
+                  <div class="flex space-between">
+                    <div class="flex align-center gap-8 py-10">
+                      <button type="button" class="icon-like rounded-full">
+                        <img src="/assets/icons8-like-18.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">297</span>
+                    </div>
+  
+                    <div class="flex align-center">
+                      <div class="flex align-center py-10">
+                        <span class="text-gray-40 fz-15">105</span>
+                        <button type="button">
+                          <img src="/assets/icons8-comment-24.png" alt="like" width="18px" height="18px">
+                        </button>
+                      </div>
+  
+                      <div class="flex align-center py-10">
+                        <span class="text-gray-40 fz-15">8</span>
+                        <button type="button">
+                          <img src="/assets/icons8-forward-arrow-20.png" alt="like" width="18px" height="18px">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="divide bg-divider-2"></div>
+  
+                  <div class="flex space-between">
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-like-18 (1).png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Like</span>
+                    </div>
+  
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-comment-24.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Comment</span>
+                    </div>
+                    
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-forward-arrow-20.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Share</span>
+                    </div>
+  
+                    <div class="flex align-center cursor-pointer">
+                      <div class="rounded-full w-20 h-20 over-hidden cursor-pointer">
+                        <img src="./assets/avatar.jpg" alt="user" width="20px" height="20px">
+                      </div>
+                      <button type="button" class="p-0">
+                        <img src="/assets/icons8-arrow-12.png" alt="like" width="20px" height="20px">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="bg-white rounded-4 px-16">
+                <h3 class="m-0 fz-15 text-gray-40 fw-400 pt-16">Suggest for you</h3>
+                <div class="divide bg-divider-2 my-16"></div>
+  
+                <div>
+                  <div class="flex align-center gap-8">
+                    <div class="rounded-full icon-account over-hidden cursor-pointer">
+                      <img src="./assets/buon-ma-thuot.jpg" alt="user" width="40" height="40">
+                    </div>
+  
+                    <div class="flex-1">
+                      <h3 class="m-0">Buôn Ma Thuột</h3>
+                      <div class="flex align-center gap-8">
+                        2 d
+                        <img src="/assets/icons8-favicon-12.png" alt="public" width="12px" height="12px">
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <button type="button" class="cursor-pointer p-8 icon-all-post">
+                        <img src="/assets/icons8-ellipsis-20.png" alt="ellipsis" width="20px" height="20px">
+                      </button>
+  
+                      <button type="button" class="cursor-pointer p-8 icon-all-post">
+                        <img src="/assets/icons8-close-20 (1).png" alt="close" width="20px" height="20px">
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="pb-16 flex align-center gap-8 pt-12">
+                    <span class="fz-15 text-color">Thời tới.. lên kèo bạn thân ơi</span>
+                    <img src="/assets/buon-ma-thuot-icon-post.png" alt="icon-post" width="16px" height="16px">
+                  </div>
+  
+                  <div class="w-full">
+                    <img src="/assets/buon-ma-thuot-post.jpg" alt="bmt-post" class="object-fit w-full image-post">
+                  </div>
+  
+                  <div class="flex space-between">
+                    <div class="flex align-center gap-8 py-10">
+                      <button type="button" class="icon-like rounded-full">
+                        <img src="/assets/icons8-like-18.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">297</span>
+                    </div>
+  
+                    <div class="flex align-center">
+                      <div class="flex align-center py-10">
+                        <span class="text-gray-40 fz-15">105</span>
+                        <button type="button">
+                          <img src="/assets/icons8-comment-24.png" alt="like" width="18px" height="18px">
+                        </button>
+                      </div>
+  
+                      <div class="flex align-center py-10">
+                        <span class="text-gray-40 fz-15">8</span>
+                        <button type="button">
+                          <img src="/assets/icons8-forward-arrow-20.png" alt="like" width="18px" height="18px">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="divide bg-divider-2"></div>
+  
+                  <div class="flex space-between">
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-like-18 (1).png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Like</span>
+                    </div>
+  
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-comment-24.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Comment</span>
+                    </div>
+                    
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-forward-arrow-20.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Share</span>
+                    </div>
+  
+                    <div class="flex align-center cursor-pointer">
+                      <div class="rounded-full w-20 h-20 over-hidden cursor-pointer">
+                        <img src="./assets/avatar.jpg" alt="user" width="20px" height="20px">
+                      </div>
+                      <button type="button" class="p-0">
+                        <img src="/assets/icons8-arrow-12.png" alt="like" width="20px" height="20px">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="bg-white rounded-4 px-16">
+                <h3 class="m-0 fz-15 text-gray-40 fw-400 pt-16">Suggest for you</h3>
+                <div class="divide bg-divider-2 my-16"></div>
+  
+                <div>
+                  <div class="flex align-center gap-8">
+                    <div class="rounded-full icon-account over-hidden cursor-pointer">
+                      <img src="./assets/buon-ma-thuot.jpg" alt="user" width="40" height="40">
+                    </div>
+  
+                    <div class="flex-1">
+                      <h3 class="m-0">Buôn Ma Thuột</h3>
+                      <div class="flex align-center gap-8">
+                        2 d
+                        <img src="/assets/icons8-favicon-12.png" alt="public" width="12px" height="12px">
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <button type="button" class="cursor-pointer p-8 icon-all-post">
+                        <img src="/assets/icons8-ellipsis-20.png" alt="ellipsis" width="20px" height="20px">
+                      </button>
+  
+                      <button type="button" class="cursor-pointer p-8 icon-all-post">
+                        <img src="/assets/icons8-close-20 (1).png" alt="close" width="20px" height="20px">
+                      </button>
+                    </div>
+                  </div>
+                  
+                  <div class="pb-16 flex align-center gap-8 pt-12">
+                    <span class="fz-15 text-color">Thời tới.. lên kèo bạn thân ơi</span>
+                    <img src="/assets/buon-ma-thuot-icon-post.png" alt="icon-post" width="16px" height="16px">
+                  </div>
+  
+                  <div class="w-full">
+                    <img src="/assets/buon-ma-thuot-post.jpg" alt="bmt-post" class="object-fit w-full image-post">
+                  </div>
+  
+                  <div class="flex space-between">
+                    <div class="flex align-center gap-8 py-10">
+                      <button type="button" class="icon-like rounded-full">
+                        <img src="/assets/icons8-like-18.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">297</span>
+                    </div>
+  
+                    <div class="flex align-center">
+                      <div class="flex align-center py-10">
+                        <span class="text-gray-40 fz-15">105</span>
+                        <button type="button">
+                          <img src="/assets/icons8-comment-24.png" alt="like" width="18px" height="18px">
+                        </button>
+                      </div>
+  
+                      <div class="flex align-center py-10">
+                        <span class="text-gray-40 fz-15">8</span>
+                        <button type="button">
+                          <img src="/assets/icons8-forward-arrow-20.png" alt="like" width="18px" height="18px">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="divide bg-divider-2"></div>
+  
+                  <div class="flex space-between">
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-like-18 (1).png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Like</span>
+                    </div>
+  
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-comment-24.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Comment</span>
+                    </div>
+                    
+                    <div class="flex align-center justify-center py-10 cursor-pointer px-12 icon-post">
+                      <button type="button">
+                        <img src="/assets/icons8-forward-arrow-20.png" alt="like" width="18px" height="18px">
+                      </button>
+                      <span class="text-gray-40 fz-15">Share</span>
+                    </div>
+  
+                    <div class="flex align-center cursor-pointer">
+                      <div class="rounded-full w-20 h-20 over-hidden cursor-pointer">
+                        <img src="./assets/avatar.jpg" alt="user" width="20px" height="20px">
+                      </div>
+                      <button type="button" class="p-0">
+                        <img src="/assets/icons8-arrow-12.png" alt="like" width="20px" height="20px">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        
+        <aside id="aside" class="h-content">
+          <div>
+            <h2 class="text-gray-40 fz-17 px-8 m-0 mb-8">Sponsored</h2>
+
+            <div>
+              <div class="flex align-center cursor-pointer advertising-card p-8 rounded-4">
+                <div>
+                  <img src="/assets/qc-1.jpg" alt="qc" width="131px" height="131px" class="rounded-4 object-fit">
+                </div>
+                <div class="pl-12 flex-1">
+                  <h3 class="m-0 fz-15 text-color fw-600">C++ Skills Virtual Career Fair</h3>
+                  <p class="m-0">app.brazenconnect.com</p>
+                </div>
+              </div>
+
+              <div class="flex align-center cursor-pointer advertising-card p-8 rounded-4">
+                <div>
+                  <img src="/assets/qc-2.jpg" alt="qc" width="131px" height="131px" class="rounded-4 object-fit">
+                </div>
+                <div class="pl-12 flex-1">
+                  <h3 class="m-0 fz-15 text-color fw-600">Dirty Coins</h3>
+                  <p class="m-0">dirtycoins.vn</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="divide my-8 bg-divider"></div>
+          <div>
+            <div class="flex align-center space-between">
+              <h2 class="text-gray-40 fz-17 px-8 m-0 mb-8">Your Pages and profiles</h2>
+              <div class="cursor-pointer rounded-full">
+                <img src="/assets/icons8-ellipsis-20.png" alt="ellipsis" width="16px" height="16px">
+              </div>
+            </div>
+
+            <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+              <div class="w-28 h-28 rounded-full over-hidden">
+                <img src="./assets/no-avatar.png" alt="avatar" class="object-fit" width="100%" height="100%">
+              </div>
+              <h3 class="text-color flex-1">D.C</h3>
+            </div>
+
+            <div class="flex align-center cursor-pointer rounded-4 aside-item px-16">
+              <div class="px-6">
+                <img src="./assets/icons8-switch-user-20.png" alt="avatar" class="object-fit" width="20px" height="20px">
+              </div>
+              <h3 class="flex-1 fz-13 fw-400 text-gray-40">Switch Into Page</h3>
+            </div>
+
+            <div class="flex align-center cursor-pointer rounded-4 aside-item px-16">
+              <div class="px-6">
+                <img src="./assets/icons8-promotion-20.png" alt="avatar" class="object-fit" width="20px" height="20px">
+              </div>
+              <h3 class="flex-1 fz-13 fw-400 text-gray-40">Create Promotion</h3>
+            </div>
+          </div>
+          <div class="divide my-8 bg-divider"></div>
+          <div>
+            <h2 class="text-gray-40 fz-17 px-8 m-0 mb-8">Birthdays</h2>
+            <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+              <div class="w-28 h-28 rounded-full over-hidden">
+                <img src="./assets/icons8-birthday-28.png" alt="avatar" class="object-fit" width="100%" height="100%">
+              </div>
+              <h3 class="text-color flex-1">
+                <strong>Cường</strong>
+                <span>'s birthday is today.</span>
+              </h3>
+            </div>
+          </div>
+          <div class="divide my-8 bg-divider"></div>
+          <div>
+            <div class="flex align-center space-between">
+              <h2 class="text-gray-40 fz-17 px-8 m-0 mb-8">Contacts</h2>
+              <div class="flex align-center gap-16">
+                <div>
+                  <img src="/assets/icons8-search-16.png" alt="search" width="16px" height="16px">
+                </div>
+                <div>
+                  <img src="/assets/icons8-ellipsis-20.png" alt="search" width="16px" height="16px">
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+                <div class="w-28 h-28 rounded-full over-hidden">
+                  <img src="./assets/avatar.jpg" alt="avatar" class="object-fit" width="100%" height="100%">
+                </div>
+                <h3 class="text-color flex-1">Nguyễn Đình Cường</h3>
+              </div>
+              <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+                <div class="w-28 h-28 rounded-full over-hidden">
+                  <img src="./assets/avatar.jpg" alt="avatar" class="object-fit" width="100%" height="100%">
+                </div>
+                <h3 class="text-color flex-1">Nguyễn Đình Cường</h3>
+              </div>
+              <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+                <div class="w-28 h-28 rounded-full over-hidden">
+                  <img src="./assets/avatar.jpg" alt="avatar" class="object-fit" width="100%" height="100%">
+                </div>
+                <h3 class="text-color flex-1">Nguyễn Đình Cường</h3>
+              </div>
+              <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+                <div class="w-28 h-28 rounded-full over-hidden">
+                  <img src="./assets/avatar.jpg" alt="avatar" class="object-fit" width="100%" height="100%">
+                </div>
+                <h3 class="text-color flex-1">Nguyễn Đình Cường</h3>
+              </div>
+              <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+                <div class="w-28 h-28 rounded-full over-hidden">
+                  <img src="./assets/avatar.jpg" alt="avatar" class="object-fit" width="100%" height="100%">
+                </div>
+                <h3 class="text-color flex-1">Nguyễn Đình Cường</h3>
+              </div>
+              <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+                <div class="w-28 h-28 rounded-full over-hidden">
+                  <img src="./assets/avatar.jpg" alt="avatar" class="object-fit" width="100%" height="100%">
+                </div>
+                <h3 class="text-color flex-1">Nguyễn Đình Cường</h3>
+              </div>
+              <div class="flex align-center gap-8 cursor-pointer rounded-4 aside-item px-8">
+                <div class="w-28 h-28 rounded-full over-hidden">
+                  <img src="./assets/avatar.jpg" alt="avatar" class="object-fit" width="100%" height="100%">
+                </div>
+                <h3 class="text-color flex-1">Nguyễn Đình Cường</h3>
+              </div>
+            </div>
+          </div>
+        </aside>
+    </div>
+</body>
+</html>

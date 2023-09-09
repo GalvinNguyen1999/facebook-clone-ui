@@ -1,0 +1,157 @@
+@media (max-width: 767px) {
+    #main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #aside-1 {
+        display: none;
+   }
+
+   #aside {
+        display: none;
+   }
+
+   .header-search {
+         display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+   #aside-1 {
+        display: none;
+   }
+
+   #aside {
+        display: block;
+   }
+
+   .header-search {
+        display: none;
+   }
+
+   .search-tablet {
+        display: block;
+    }
+
+    .icon-gaming {
+        display: none;
+    }
+
+    .icon-menu {
+        display: block;
+    }
+
+    .icon-list {
+        display: none;
+    }
+
+    .icon-add {
+        display: flex;
+    }
+}
+
+@media (min-width: 1024px) {
+    #main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    #aside {
+        display: block;
+    }
+
+    #aside-1 {
+        display: block;
+    }
+    
+    #content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .header-search {
+        display: none;
+    }
+
+    .icon-gaming {
+        display: none;
+    }
+
+    .icon-menu {
+        display: block;
+    }
+
+    .icon-list {
+        display: none;
+    }
+
+    .icon-add {
+        display: flex;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    #main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    #aside {
+        display: block;
+    }
+
+    #aside-1 {
+        display: block;
+    }
+
+    .search-tablet {
+        display: none;
+    }
+
+    .header-search {
+        display: flex;
+    }
+
+    .icon-gaming {
+        display: block;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+
+    .icon-list {
+        display: flex;
+    }
+
+    .icon-add {
+        display: none;
+    }
+}
+
+@media (min-width: 2560px) {
+    #main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    #aside {
+        display: block;
+    }
+
+    #aside-1 {
+        display: block;
+    }
+}
